@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+    background-color: #c98686;
+    padding: 20px;
+    color: #474646;
+    
+}
+body{
+    background-color:#e2c7c7 ;
+    display: inline;
+}
+h2{
+    color: #474646;
+}
+p{
+    color: #474646;
+}
+
+div{
+    border:2px solid #474646;
+    margin-right:60%;
+    padding: 0px 20px 20px;
+    margin-top: 15px;
+    margin-left: 15PX;
+}
+article h2{ 
+ padding-left: 20PX;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #c98686;
+    font-weight: bold;
+}

@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea6</title>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header >
+    <h1>Práctica funciones</h1>
+    </header>
+
+   <nav></nav>
+    <main>
+        <article class="ControldeFlujo">
+          
+            <h2>Control de Flujo</h2>  <div class="ParoImpar">
+           
+        
+            <p>Par o Impar (If/else)</p>
+            <input type="text" name="texto" id="digitoCF1">
+          <button onclick="ParoImpar()">Click here </button>
+        </div>
+        
+        <div class="numMes">
+          
+      
+            <p>Ponga un numero y le diré que mes es (Switch)</p>
+            <input type="text" name="texto" id="digitoCF2" required="">
+          <button onclick="numMes()">Click here </button>
+        </div>
+       
+
+        </article>
+        <article class="ControldeErrores">
+            <h2>Control de Errores</h2>
+            <div class="TryCatch">
+              
+                <p>Digite dos numeros (Try Catch)</p>
+                <input type="text" name="texto" id="digitoCE1">
+                
+                <input type="text" name="texto" id="digitoCE2">
+                
+              <button onclick="ValidarVacio()">Click here </button>
+            </div>
+            
+        </article>
+        <article class="Bucles">
+            <h2>Bucles</h2>
+            <div class="for">
+              
+                <p>Ingrese una palabra (For)</p>
+                <input type="text" name="texto" id="palabra">
+                <button onclick="Contador()">Click here</button>
+            </div>
+         
+            <div class="While">
+              
+                <p>Adivina el numero del 1 al 10 (While)</p>
+                <p>Tiene 3 oportunidades</p>
+                <input type="text" name="texto" id="numeroB1">
+                <br><br>
+                <input type="text" name="texto" id="numeroB2">
+                
+                <br><br>
+                <input type="text" name="texto" id="numeroB3">
+                <br>
+                <br>
+                <button type="button" onclick="Adivina()">Click here</button>
+                <button type="button" onclick="reiniciar()">Reiniciar</button>
+               
+
+            </div>
+  
+            <div class="DoWhile">
+                <p>Digite su fecha de nacimiento (Do While)</p>
+                <input type="date" name="texto" id="fechaN">
+                <button  onclick="Annios()">Click here</button>
+               
+            </div>
+        </article>
+        <footer>
+            <p>Autor: Kate Campos Vindas</p>
+        </footer>
+    </main>
+</body>
+</html>
